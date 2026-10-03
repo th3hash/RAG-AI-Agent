@@ -1,0 +1,9 @@
+flowchart LR
+U[User question] --> A[Agent]
+A -->|document| R[search_documents]
+A -->|math| C[calculator]
+R --> V[(Chroma)]
+V --> P[PDF chunks]
+R --> A
+C --> A
+A --> O[Final answer]

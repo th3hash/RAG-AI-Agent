@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680">
+<defs><style>.box{fill:#111827;stroke:#64748b;stroke-width:2}.txt{fill:#f8fafc;font:22px Arial}.small{fill:#cbd5e1;font:16px Arial}.arrow{stroke:#94a3b8;stroke-width:3;marker-end:url(#m)}</style><marker id="m" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#94a3b8"/></marker></defs>
+<rect width="1200" height="680" fill="#020617"/>
+<text x="600" y="45" text-anchor="middle" class="txt">RAG + Agent — Two-Tool Architecture</text>
+<rect class="box" x="475" y="90" width="250" height="85" rx="14"/><text x="600" y="142" text-anchor="middle" class="txt">User Question</text>
+<path class="arrow" d="M600 175V225"/>
+<rect class="box" x="450" y="230" width="300" height="90" rx="14"/><text x="600" y="273" text-anchor="middle" class="txt">Agent</text><text x="600" y="298" text-anchor="middle" class="small">chooses tool</text>
+<path class="arrow" d="M450 275H260V355"/><path class="arrow" d="M750 275H940V355"/>
+<rect class="box" x="100" y="360" width="320" height="100" rx="14"/><text x="260" y="405" text-anchor="middle" class="txt">search_documents</text><text x="260" y="432" text-anchor="middle" class="small">RAG → Chroma → PDF</text>
+<rect class="box" x="780" y="360" width="320" height="100" rx="14"/><text x="940" y="405" text-anchor="middle" class="txt">calculator</text><text x="940" y="432" text-anchor="middle" class="small">safe arithmetic</text>
+<path class="arrow" d="M260 460V525H600"/><path class="arrow" d="M940 460V525H600"/>
+<rect class="box" x="450" y="525" width="300" height="85" rx="14"/><text x="600" y="577" text-anchor="middle" class="txt">Agent → Final Answer</text>
+</svg>
