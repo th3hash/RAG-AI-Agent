@@ -1,0 +1,1 @@
+Add your own authorized PDF here and rename it to handbook.pdf. The PDF is intentionally not bundled.
